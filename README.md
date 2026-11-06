@@ -1,3 +1,4 @@
+
 # Basics-Cyber-Security-Checklist
 A checklist that is designed to help individuals and samll organisations protect their digital information, environment and assets.
 Checklist:# Basics of Cyber-Security Checklist
@@ -23,3 +24,36 @@ Designed to safeguard company assets, customer data, and commercial networks wit
 * [ ] **Deploy Centralized Endpoint Protection:** Install corporate-grade antivirus, anti-malware, and host-based firewalls on all office machines.
 * [ ] **Enforce Regular Data Backups:** Follow the 3-2-1 backup strategy (3 copies of data, across 2 different media types, with 1 copy stored securely offline/off-site).
 * [ ] **Develop an Incident Response Policy:** Maintain a clearly documented plan detailing who to contact and what actions to take immediately following a data breach.
+
+
+
+## 3. 💻 Remote Workers
+Addresses the security challenges of accessing corporate resources outside the traditional office perimeter.
+* [ ] *Always Use a Secure VPN:* Mandate the use of an enterprise Virtual Private Network (VPN) when connecting to company systems over external networks.
+* [ ] *Secure the Remote Workspace:* Ensure work devices are never used by family members and configure the screen to lock automatically after 2–5 minutes of inactivity.
+* [ ] *Verify Home Router Security:* Confirm that the home router firmware is updated and that the remote worker's home network does not use weak default passwords.
+* [ ] *Use Approved Storage & Collaboration Tools:* Share files and communicate strictly through company-vetted, encrypted cloud channels rather than personal email or consumer messaging apps.
+* [ ] *Shred Sensitive Physical Documents:* Utilize a cross-cut shredder to destroy any physical paper containing corporate or client data printed at home.
+
+---
+
+## 4. 📱 Mobile Users
+Aims to secure smartphones and tablets that handle sensitive personal or professional information.
+* [ ] *Enforce Biometrics and Secure PINs:* Lock mobile devices using biometric authentication (FaceID/Fingerprint) paired with a complex 6-digit PIN or alphanumeric passcode.
+* [ ] *Audit App Permissions:* Regularly check app settings and deny unnecessary access to location services, contacts, the microphone, and the camera.
+* [ ] *Disable Auto-Connect Over Public Wi-Fi:* Turn off automatic wireless switching and Bluetooth discoverability to avoid connecting to rogue, unencrypted public hotspots.
+* [ ] *Install a Remote Wipe Solution:* Enable features like "Find My Device" or deploy Mobile Device Management (MDM) software to remotely wipe data if the phone is lost or stolen.
+* [ ] *Only Download from Official Stores:* Restrict all installations to official ecosystems (Apple App Store or Google Play Store) to avoid sideloading malicious applications.
+
+---
+
+## 5. ☁️ Cloud Environments
+Ensures cloud infrastructure, storage buckets, and hosted web applications are properly defended.
+* [ ] *Deactivate Default Public Cloud Access:* Confirm all cloud storage buckets (e.g., AWS S3, Azure Blobs) are configured to private by default to prevent accidental data leaks.
+* [ ] *Enforce Zero-Trust Network Architecture:* Mandate phishing-resistant hardware MFA for all administrative cloud accounts and rotate API access keys regularly.
+* [ ] *Enable Continuous Cloud Logging:* Turn on cloud trail logging and real-time monitoring to detect unauthorized configurations or anomalous file exfiltration.
+* [ ] *Encrypt Data at Rest and in Transit:* Apply strong encryption protocols (AES-256 for data at rest and TLS 1.3 for data in motion) across all cloud storage systems.
+* [ ] *Perform Regular Configuration Audits:* Use automated security tools to continuously scan cloud environments against baseline security benchmarks (like CIS Controls).
+
+
+
