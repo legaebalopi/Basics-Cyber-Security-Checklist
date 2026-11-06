@@ -25,7 +25,7 @@ Designed to safeguard company assets, customer data, and commercial networks wit
 * [ ] **Enforce Regular Data Backups:** Follow the 3-2-1 backup strategy (3 copies of data, across 2 different media types, with 1 copy stored securely offline/off-site).
 * [ ] **Develop an Incident Response Policy:** Maintain a clearly documented plan detailing who to contact and what actions to take immediately following a data breach.
 
-
+---
 
 ## 3. 💻 Remote Workers
 Addresses the security challenges of accessing corporate resources outside the traditional office perimeter.
@@ -54,6 +54,28 @@ Ensures cloud infrastructure, storage buckets, and hosted web applications are p
 * [ ] *Enable Continuous Cloud Logging:* Turn on cloud trail logging and real-time monitoring to detect unauthorized configurations or anomalous file exfiltration.
 * [ ] *Encrypt Data at Rest and in Transit:* Apply strong encryption protocols (AES-256 for data at rest and TLS 1.3 for data in motion) across all cloud storage systems.
 * [ ] *Perform Regular Configuration Audits:* Use automated security tools to continuously scan cloud environments against baseline security benchmarks (like CIS Controls).
+
+---
+
+## 6. 🏗️ Critical Infrastructure
+Tailored for Operational Technology (OT) and systems managing utilities, transportation, and health networks.
+* [ ] *Implement Strict Network Segmentation:* Physically or logically air-gap Industrial Control Systems (ICS) and SCADA networks from the standard corporate IT network.
+* [ ] *Deploy Out-of-Band Management (OOBM):* Ensure critical control pathways use dedicated, non-internet-facing communication links.
+* [ ] *Establish Rigorous Patch Management:* Set a strict, validated testing schedule for firmware and software updates on critical infrastructure equipment to prevent operational disruptions.
+* [ ] *Maintain Strict Physical Access Controls:* Secure server rooms, control facilities, and terminal connection ports behind biometric locks, security badges, and CCTV monitoring.
+* [ ] *Plan for Offline Operational Failovers:* Maintain fully tested manual backup override systems so plants can continue basic operations even if the digital network is completely compromised.
+
+---
+
+## 7. 🏛️ Government Agencies
+Designed to align with strict regulatory frameworks, compliance laws, and national security data handling.
+* [ ] *Enforce Data Classification Controls:* Sort and label all organizational data by security clearance tier (e.g., Unclassified, Confidential, Secret) to manage access rights strictly.
+* [ ] *Maintain Regulatory Compliance Standards:* Ensure all IT infrastructure fully adheres to required national standards (such as NIST frameworks, ISO 27001, or local data privacy laws).
+* [ ] *Establish Third-Party Vendor Risk Management:* Vetting external software contractors and hardware suppliers through rigorous supply chain cyber evaluations before granting network integration.
+* [ ] *Enforce Immutable Tamper-Evident Audit Trails:* Set up secure, centralized log aggregation that cannot be altered or deleted by any standard administrative account for forensic tracking.
+* [ ] *Conduct Routine Penetration Testing:* Employ certified external ethical hackers to perform annual system vulnerability testing and black-box network security audits.
+*
+
 
 
 
